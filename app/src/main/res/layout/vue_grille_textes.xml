@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <TextView
+        android:id="@+id/textViewChoixGrille"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="message"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#F00" />
+
+    <GridView
+        android:id="@+id/gridView2colonnes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="2"
+        android:layout_margin="5dp"
+        android:padding="5dp" >
+    </GridView>
+
+</LinearLayout>
